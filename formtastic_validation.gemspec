@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "formtastic_validation"
-  s.version = "0.1.2.3"
+  s.version = "0.1.2.4"
 
   s.required_rubygems_version = ">= 1.3.6"
   s.authors = ["Wong Liang Zan"]
