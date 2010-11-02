@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name = "formtastic_validation"
   s.version = "0.1.2.2"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = ">= 1.3.6"
   s.authors = ["Wong Liang Zan"]
   s.date = %q{2010-09-08}
   s.description = %q{A formtastic extension that does client side validation}
@@ -22,8 +22,7 @@ Gem::Specification.new do |s|
     
   s.homepage = %q{http://github.com/liangzan/formtastic_validation}
   s.rdoc_options = ["--charset=UTF-8"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.require_paths = "lib"
   s.summary = %q{Client side validation with formtastic}
   s.test_files = [
     "spec/formtastic_validation_spec.rb",
