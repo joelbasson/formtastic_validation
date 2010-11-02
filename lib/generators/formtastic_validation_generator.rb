@@ -1,5 +1,6 @@
-class FormtasticValidationGenerator < Rails::Generator::Base
+require 'rails/generators'
 
+class FormtasticValidationGenerator < Rails::Generators::Base
   def manifest
     record do |m|
       m.file 'public/javascripts/formtastic_validation-0.1.2.min.js', 'public/javascripts/formtastic_validation-0.1.2.min.js'
