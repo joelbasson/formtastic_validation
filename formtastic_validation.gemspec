@@ -55,7 +55,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<validation_reflection>, ["= 0.3.8"])
-      s.add_runtime_dependency(%q<formtastic>, ["= 1.0.0"])
+      s.add_runtime_dependency(%q<formtastic>, ["= 1.1.0"])
       s.add_development_dependency(%q<rspec>, ["= 1.3.0"])
       s.add_development_dependency(%q<rspec-rails>, ["= 1.3.2"])
       s.add_development_dependency(%q<rspec_tag_matchers>, ["= 1.0.0"])
@@ -74,7 +74,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<validation_reflection>, ["= 0.3.8"])
-    s.add_dependency(%q<formtastic>, ["= 1.0.0"])
+    s.add_dependency(%q<formtastic>, ["= 1.1.0"])
     s.add_dependency(%q<rspec>, ["= 1.3.0"])
     s.add_dependency(%q<rspec-rails>, ["= 1.3.2"])
     s.add_dependency(%q<rspec_tag_matchers>, ["= 1.0.0"])
